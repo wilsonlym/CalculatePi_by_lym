@@ -1,0 +1,18 @@
+﻿Build started 2014/9/9 18:37:52.
+     1>Project "C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\PiUnitTest\PiUnitTest.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\UnitTest\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.lib" /MACHINE:X86 /SAFESEH /DLL Release\stdafx.obj
+         Release\unittest1.obj
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+            Creating library C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.lib and object C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.exp
+     1>unittest1.obj : error LNK2001: unresolved external symbol "void __cdecl add(class std::vector<int,class std::allocator<int> > &,class std::vector<int,class std::allocator<int> > &,int)" (?add@@YAXAAV?$vector@HV?$allocator@H@std@@@std@@0H@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "void __cdecl multiply(class std::vector<int,class std::allocator<int> > &,int,int)" (?multiply@@YAXAAV?$vector@HV?$allocator@H@std@@@std@@HH@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "void __cdecl divide(class std::vector<int,class std::allocator<int> > &,int,int,int)" (?divide@@YAXAAV?$vector@HV?$allocator@H@std@@@std@@HHH@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "int __cdecl check(class std::vector<int,class std::allocator<int> > &,int)" (?check@@YAHAAV?$vector@HV?$allocator@H@std@@@std@@H@Z)
+     1>unittest1.obj : error LNK2001: unresolved external symbol "void __cdecl updateLength(int,int &)" (?updateLength@@YAXHAAH@Z)
+     1>C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\Release\PiUnitTest.dll : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\v-yiliao\Documents\Visual Studio 2013\Projects\CalPi_opt\PiUnitTest\PiUnitTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37
